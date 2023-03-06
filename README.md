@@ -41,24 +41,46 @@ Below are the initial pen & paper wireframes for the site:
 ## UX
 
 ### Project Goals
-The primary goal of site
+The primary goal of the Aquarius site is to provide a simple and informative interface where user's can learn about the product and it's journey through development as well as sign up to receive updates on the product. Aquarius has two target audiences: Water users such as, surfers, wild swimmers, kayakers etc. and Charities or Agencies involved in water sports or coastal/ river environments.
 
-### User Scenario One
-User:
+### User Scenario One:
+**User:** Wild Swimmer
 
-Their Goals:
+**Their Goals:**
+* Learn how Aquarius can benefit them
+* Understand the problem of sewage contamination
+* Find out more about the progress of Aquarius
+* Find out what they can do now to help with the problem
 
-How site helps them:
+**How site helps them:**
+* Provides information about the Aquarius product
+* Shows the journey of Aquarius from problem to product
+* Explains, with data, the impact sewage contamination has on water users
+* Provides a newsletter sign up to find out more about Aquarius' progress
+* Provides information on virtual, local and national causes that help with the problem
 
-### User Scenario Two
-User:
+### User Scenario Two:
+**User:** Charity worker supporting the fight against sewage contamination
 
-Their Goals:
+**Their Goals:**
+* Learn how Aquarius could benefit their organisation and the public
+* Organise a collaboration or trade order
+* Find out more about the progress of Aquarius
 
-How site helps them:
+**How site helps them:**
+* Provides information about the Aquarius product
+* Provides a newsletter sign up to find out more about Aquarius' progress
+* Provides contact information for collaborations and pre-orders
 
 ### Wireframes
-![alt text](assets/img/ "Balsamic Wireframes")
+Balsamiq Mobile Wireframes:
+![alt text](assets/img/mobile_wireframes_2023_03_06.png "Balsamiq Mobile Wireframes")
+
+Balsamiq Tablet Wireframes:
+![alt text](assets/img/tablet_wireframes_2023_03_07.png "Balsamiq Tablet Wireframes")
+
+Balsamiq Desktop Wireframes:
+![alt text](assets/img/desktop_wireframes_2023_03_07.png "Balsamiq Desktop Wireframes")
 
 Wireframe user testing outcomes
 
