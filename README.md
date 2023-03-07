@@ -84,8 +84,8 @@ Balsamiq Desktop Wireframes:
 
 Wireframe user testing outcomes
 
-### Detailed Wireframes
-![alt text](assets/img/ "Detailed Wireframes")
+### Updated Wireframes
+![alt text](assets/img/ "Updated Wireframes")
 
 ***
 
