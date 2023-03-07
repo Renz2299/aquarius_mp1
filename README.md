@@ -4,6 +4,8 @@
 
 # Aquarius Start Up Site
 
+Link to final project
+
 A website introducing the Aquarius product to the world, consisting of a Home page, About page and, Sign Up page. The Home page showcases the product and it's USPs; the About page explains the development journey of the product and; the Sign Up page allows users to sign up for updates as well as contribute to the cause.
 
 ***
@@ -43,7 +45,7 @@ Below are the initial pen & paper wireframes for the site:
 ### Project Goals
 The primary goal of the Aquarius site is to provide a simple and informative interface where user's can learn about the product and it's journey through development as well as sign up to receive updates on the product. Aquarius has two target audiences: Water users such as, surfers, wild swimmers, kayakers etc. and Charities or Agencies involved in water sports or coastal/ river environments.
 
-### User Scenario One:
+### User Scenario One: *make these more like a persona*
 **User:** Wild Swimmer
 
 **Their Goals:**
@@ -89,8 +91,12 @@ Wireframe user testing outcomes
 
 ***
 
+## Design
+
+***
+
 ## Project Management
-VS Code, Git, GitHub for Desktop? Version control
+Version control, Languages
 
 ***
 
@@ -104,6 +110,7 @@ Navigation
 ***
 
 ## Home (index.html)
+Pop-Ups/ Audio or Video - Needs something for the user to control
 
 ***
 
@@ -120,7 +127,14 @@ Navigation
 ***
 
 ## Testing
+### Validation - CSS (Jigsaw), HTML (W3C)
 ### Mobile
 ### Tablet
 ### Desktop
 ### Large Screens?
+
+github - elainbroche-dev/
+
+***
+
+## Credits & Acknowledgements
