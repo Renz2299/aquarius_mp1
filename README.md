@@ -4,6 +4,8 @@ Find the final project here: **_link to final project_**
 
 A website introducing the Aquarius product to the world, consisting of a Home page, About page and, Sign Up page. The Home page showcases the product and it's USPs; the About page explains the development journey of the product and; the Sign Up page allows users to sign up for updates as well as contribute to the cause.
 
+**_image of final site renders_**
+
 ***
 
 ## Table of Contents
@@ -87,11 +89,23 @@ Balsamiq Desktop Wireframes:
 
 ![alt text](assets/img/desktop_wireframes_2023_03_07.png "Balsamiq Desktop Wireframes")
 
-Outcomes of Wireframe Testing:
+### **Wireframe Testing**
 
-### **Updated Wireframes**
+The above wireframes were tested with two users to collect their thoughts and opinions on the current site layout as well as what they thought could be improved to make the site more user-friendly. Without specific site content, they both felt it was difficult to visualise the site, therefore once the main structure of the site is developed, the site will be tested with them again to fina areas for improvement.
 
-![alt text](assets/img/ "Updated Wireframes")
+Both users did notice a lot of text on the site, which on the dekstop version was fine, however, on the mobile and tablet versions they felt it was a lot of undigestable content. The wireframes were updated to represent text as a mixture of paragraphs and lists to ensure that during site development this would be kept in mind. Screen sizes have also been added to the wireframes to show what content is shown on the initial view of each page.
+
+Updated Mobile Wireframes:
+
+![alt text](assets/img/mobile_wireframes_2023_03_12.png "Updated Mobile Wireframes")
+
+Updated Tablet Wireframes:
+
+![alt text](assets/img/tablet_wireframes_2023_03_12.png "Updated Tablet Wireframes")
+
+Updated Dekstop Wireframes:
+
+![alt text](assets/img/desktop_wireframes_2023_03_12.png "Updated Desktop Wireframes")
 
 ***
 
@@ -111,7 +125,9 @@ Here are the shades of the original base colour from Aquarius, the colours that 
 Various combinations of the chosen six colours were tested using Adobe Colour's accessibility tools, below are the three combinations that passed the minimum colour contrast ratio check.
 
 ![alt text](assets/img/contrast_colours_1_2023_03_08.png "Dark Blue on Off White")
+
 ![alt text](assets/img/contrast_colours_2_2023_03_08.png "Bright Blue on Dark Blue")
+
 ![alt text](assets/img/contrast_colours_3_2023_03_08.png "Off White on Dark Blue")
 
 Here is the final colour scheme for the site:
@@ -131,6 +147,7 @@ The Aquarius logo consists of Futura, however this is not a Google Font so is le
 Fjalla One will be used for headers, taglines and navigation, the following screenshots show testing of Fjalla One in standard case and uppercase. Uppercase will be used for the navigation and standard case will be used within page content.
 
 ![alt text](assets/img/fjalla_one_test_1.png "Standard Case Font Testing")
+
 ![alt text](assets/img/fjalla_one_test_2.png "Uppercase Font Testing")
 
 Oxygen will be used for paragraph text, links and the footer, the following screenshot shows testing of Oxygen at 16px, browser default.
