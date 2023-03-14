@@ -21,3 +21,9 @@ header, footer {
     float: right;
     margin-right: 30px;
 }
+
+@media screen and (max-width: 580px) {
+    .primary-nav {
+        float: left;
+    }
+}
