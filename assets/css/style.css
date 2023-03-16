@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
-header, footer {
+footer {
     margin: 30px 30px;
+}
+
+.nav-col .logo {
+    margin: 50px;
 }
 
 .primary-nav li {

@@ -209,3 +209,5 @@ github - elainbroche-dev/
 ***
 
 ## Credits & Acknowledgements
+
+navbar javascript: https://bootstrap-menu.com/detail-fixed-onscroll.html?fbclid=IwAR3Hoo45FodP7x-jv1Rt9Cl6LSx2J2AKoAXP1qmmECSU2XaOZ35r7C97e4A
