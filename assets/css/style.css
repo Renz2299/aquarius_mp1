@@ -19,12 +19,23 @@ body, html {
 
 .hero-outer {
     height: 100%;
+    position: relative;
+}
+
+.hero-outer .arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+
+.fa-arrow-down {
+    color: #fff;
 }
 
 .cover-text {
     color: #fff;
     font-family: Oxygen, sans-serif;
-    top: 100px;
+    top: 50px;
     left: 50px;
     position: absolute;
 }
@@ -57,7 +68,7 @@ footer {
     margin-right: 30px;
 }
 
-/*-------------------------------------------- arrow testing */
+/*-------------------------------------------- animated arrow */
 
 .arrow {
     cursor: pointer;
