@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <title>Aquarius</title>
-    <!--cutting this out still somehow works <script type="text/javascript">
+    <!--cutting this out still somehow works-->
+    <!--<script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function(){
             
             window.addEventListener('scroll', function() {
                
-                if (window.scrollY > 50) {
+                if (window.scrollY > 200) {
                     document.getElementById('navbar_top').classList.add('fixed-top');
                     // add padding top to show content behind navbar
                     navbar_height = document.querySelector('.navbar').offsetHeight;
@@ -28,12 +29,11 @@
             });
         }); 
         // DOMContentLoaded  end
-        // scroll is a bit jumpy with white background showing behind
-    </script> -->
+    </script>-->
 </head>
 <body>
     <section>
-    <nav id="navbar_top" class="navbar navbar-expand-sm sticky-top bg-dark navbar-dark"> 
+    <nav id="navbar_top" class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark"> <!--no longer fixed, when did that happen?-->
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img class="logo" src="assets/img/logo_white.png">
@@ -50,20 +50,18 @@
             </div>
         </div>
     </nav>
-    <div class="hero-outer">
-        <div class="hero-container">
-            <div class="hero-img"></div>
-            <div class="cover-text">
-                <h2>Tagline Heading</h2>
-                <p>Aquarius is a water quality tester</p>
-            </div>
-            <div class="arrow bounce">
-                <i class="fa fa-chevron-down"></i>
-            </div>
+    <div class="hero-container">
+        <div class="hero-img"></div>
+        <div class="cover-text">
+            <h2>Tagline Heading</h2>
+            <p>Aquarius is a water quality tester</p>
+        </div>
+        <div class="arrow bounce">
+            <i class="fa fa-chevron-down"></i>
         </div>
     </div>
     </section>
-    <section>
+    <section class="index-content">
         <div class="container intro"> <!--need to put back into normal flow of page-->
             <div class="row">
                 <div class="col-md-6">
@@ -75,9 +73,7 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!--maybe add grey line here-->
-    <section>
+        <!--maybe add grey line here-->
         <div class="container problem"> <!--need to use media query to hide second paragraph and allow imgs to sit side-by-side on mobile-->
             <div class="row">
                 <div class="col-md-6">
@@ -88,7 +84,7 @@
                     <img src="assets/img/intro_shot.png" style="width: 100%;">
                 </div>
             </div>
-            <div class="row section-ext">
+            <div class="row content-ext">
                 <div class="col-md-6">
                     <p>This is text</p>
                 </div>
@@ -97,9 +93,7 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!--maybe add grey line here-->
-    <section>
+        <!--maybe add grey line here-->
         <div class="container solution">
             <div class="row">
                 <div class="col-md-6">
@@ -110,7 +104,7 @@
                     <p>This is text</p>
                 </div>
             </div>
-            <div class="row section-ext">
+            <div class="row content-ext">
                 <div class="col-md-6">
                     <p>This is text</p>
                 </div>
@@ -118,7 +112,7 @@
                     <img src="assets/img/product_with_strap.png" style="width: 100%;">
                 </div>
             </div>
-            <div class="row section-ext section-last">
+            <div class="row content-ext content-last">
                 <div class="col-md-6">
                     <img src="assets/img/components.png" style="width: 100%;">
                 </div>
@@ -126,7 +120,7 @@
                     <p>This is text</p>
                 </div>
             </div>
-        </div>
+        </div> 
     </section>
     <footer>
         <div id="footer-details" class="row">

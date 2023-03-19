@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
+/*------------------------------------------------------ colours */
+
+/*------------------------------------------------------ navbar */
+
 .logo {
     height: 40px;
 }
 
-.hero-outer {
-    height: 100%;
-    width: 100%;
+.navbar {
+    opacity: 0.5;
 }
+
+/*------------------------------------------------------ hero shot */
 
 .hero-container {
     height: 100%;
@@ -25,17 +30,6 @@
     background-size: cover;
 }
 
-.hero-container .arrow {
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
-}
-
-.fa-chevron-down {
-    color: #fff;
-    scale: 120%;
-}
-
 .cover-text {
     color: #fff;
     font-family: Oxygen, sans-serif;
@@ -48,36 +42,7 @@
     font-family: Fjalla One, sans-serif;
 }
 
-.container {
-    position: relative;
-    top: 100vh;
-}
-
-.problem, .solution {
-    margin-top: 50px;
-}
-
-.section-ext {
-    margin-top: 25px;
-}
-
-.section-last {
-    margin-bottom: 70px;
-}
-
-/*-------------------------------------------- footer */
-
-footer {
-    margin: 30px 30px;
-}
-
-.social-links li {
-    list-style-type: none;
-    float: right;
-    margin-right: 30px;
-}
-
-/*-------------------------------------------- animated arrow */
+/*------------------------------------------------------ animated arrow */
 
 .arrow {
     cursor: pointer;
@@ -89,8 +54,18 @@ footer {
     height: 40px;
 }
 
+.fa-chevron-down {
+    color: #fff;
+}
+
+.hero-container .arrow {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+}
+
 .bounce {
-    animation: bounce 2s infinite;
+    animation: bounce 2.5s infinite;
 }
 
 @keyframes bounce {
@@ -98,9 +73,40 @@ footer {
         transform: translateY(0);
     }
     40% {
-        transform: translateY(-30px);
+        transform: translateY(-25px);
     }
     60% {
         transform: translateY(-15px);
     }
+}
+
+/*------------------------------------------------------ page contents */
+
+.index-content {
+    position: relative;
+    top: 110vh;
+}
+
+.problem, .solution {
+    margin-top: 70px;
+}
+
+.content-ext {
+    margin-top: 25px;
+}
+
+.content-last {
+    margin-bottom: 70px;
+}
+
+/*------------------------------------------------------ footer */
+
+footer {
+    margin: 30px 30px;
+}
+
+.social-links li {
+    list-style-type: none;
+    float: right;
+    margin-right: 30px;
 }
