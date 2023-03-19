@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
-body, html {
-    height: 100%;
-}
-
-.navbar {
-    opacity: 0.5;
-}
-
 .logo {
     height: 40px;
 }
@@ -28,10 +20,9 @@ body, html {
 .hero-img {
     background-image: url("../img/hero_shot.png");
     height: 100%;
-    background-position: center;
+    background-position: center 80%;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
 }
 
 .hero-container .arrow {
@@ -40,15 +31,16 @@ body, html {
     left: 50%;
 }
 
-.fa-arrow-down {
+.fa-chevron-down {
     color: #fff;
+    scale: 120%;
 }
 
 .cover-text {
     color: #fff;
     font-family: Oxygen, sans-serif;
     top: 100px;
-    left: 50px;
+    left: 40px;
     position: absolute;
 }
 
@@ -56,13 +48,13 @@ body, html {
     font-family: Fjalla One, sans-serif;
 }
 
-.into {
-    position: absolute;
-    top: 150%;
+.container {
+    position: relative;
+    top: 100vh;
 }
 
-.intro, .problem, .solution {
-    margin-top: 100px;
+.problem, .solution {
+    margin-top: 50px;
 }
 
 .section-ext {
