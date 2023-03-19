@@ -10,7 +10,21 @@
 }
 
 .navbar {
-    opacity: 0.5;
+    background-color: #306E6C; /*--- colour doesn't work with hero shot, need a darker teal */
+}
+
+.nav-link {
+    font-family: Fjalla One, sans-serif;
+    font-size: 20px;
+    color: #F7F7F7;
+}
+
+.active {
+    color: #6EFAF5; /*--- not overriding for some reason */
+}
+
+.navbar-toggler {
+    border: none; /*--- need to change internal button colour and on hover */
 }
 
 /*------------------------------------------------------ hero shot */

@@ -33,7 +33,7 @@
 </head>
 <body>
     <section>
-    <nav id="navbar_top" class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark"> <!--no longer fixed, when did that happen?-->
+    <nav id="navbar_top" class="navbar navbar-expand-sm fixed-top"> <!--no longer fixed, when did that happen?-->
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img class="logo" src="assets/img/logo_white.png">
@@ -43,9 +43,9 @@
             </button>
             <div class="collapse navbar-collapse" id="main-nav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">SIGN UP</a></li>
                 </ul>
             </div>
         </div>
@@ -61,67 +61,78 @@
         </div>
     </div>
     </section>
-    <section class="index-content">
-        <div class="container intro"> <!--need to put back into normal flow of page-->
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Intro to Aquarius</h2>
-                    <p>This is text</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/img/intro_shot.png" style="width: 100%;">
+    <div class="index-content">
+        <section>
+            <div class="container intro"> <!--need to put back into normal flow of page-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Intro to Aquarius</h2>
+                        <p>This is text</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/intro_shot.png" style="width: 100%;">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!--maybe add grey line here-->
-        <div class="container problem"> <!--need to use media query to hide second paragraph and allow imgs to sit side-by-side on mobile-->
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>The Problem</h2>
-                    <p>This is text</p>
+        <section>
+            <div class="container problem"> <!--need to use media query to hide second paragraph and allow imgs to sit side-by-side on mobile-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>The Problem</h2>
+                        <p>UK water users are just as likely to become ill from seawater as they were in the 1990’s</p>
+                        <ul>
+                            <li>Bathing water samples are only taken on 20 out of the 153 days in the bathing season; only 13% of the bathing season is tested.</li>
+                            <li>The current testing regime does not account for changes in microbial concentrations, which happen over a matter of hours during sewage overflow events.</li>
+                            <li>Current testing only looks for bacterial parameters, however, research shows that viruses are more common in bathing waters.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/intro_shot.png" style="width: 100%;">
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/img/intro_shot.png" style="width: 100%;">
+                <div class="row content-ext">
+                    <div class="col-md-6">
+                        <p>This is text</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/intro_shot.png" style="width: 100%;">
+                    </div>
                 </div>
             </div>
-            <div class="row content-ext">
-                <div class="col-md-6">
-                    <p>This is text</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/img/intro_shot.png" style="width: 100%;">
-                </div>
-            </div>
-        </div>
+        </section>
         <!--maybe add grey line here-->
-        <div class="container solution">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="assets/img/multi_product.png" style="width: 100%;">
+        <section>
+            <div class="container solution">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/img/multi_product.png" style="width: 100%;">
+                    </div>
+                    <div class="col-md-6">
+                        <h2>The Solution</h2>
+                        <p>This is text</p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h2>The Solution</h2>
-                    <p>This is text</p>
+                <div class="row content-ext">
+                    <div class="col-md-6">
+                        <p>This is text</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/product_with_strap.png" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="row content-ext content-last">
+                    <div class="col-md-6">
+                        <img src="assets/img/components.png" style="width: 100%;">
+                    </div>
+                    <div class="col-md-6">
+                        <p>This is text</p>
+                    </div>
                 </div>
             </div>
-            <div class="row content-ext">
-                <div class="col-md-6">
-                    <p>This is text</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/img/product_with_strap.png" style="width: 100%;">
-                </div>
-            </div>
-            <div class="row content-ext content-last">
-                <div class="col-md-6">
-                    <img src="assets/img/components.png" style="width: 100%;">
-                </div>
-                <div class="col-md-6">
-                    <p>This is text</p>
-                </div>
-            </div>
-        </div> 
-    </section>
+        </section>
+    </div>
     <footer>
         <div id="footer-details" class="row">
             <div class="col-sm-6">
