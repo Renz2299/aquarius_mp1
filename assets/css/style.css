@@ -46,7 +46,6 @@
 
 .cover-text {
     color: #fff;
-    font-family: Oxygen, sans-serif;
     top: 100px;
     left: 40px;
     position: absolute;
@@ -54,6 +53,11 @@
 
 .cover-text h2 {
     font-family: Fjalla One, sans-serif;
+    text-transform: uppercase;
+}
+
+.cover-text p {
+    width: 20vw;
 }
 
 /*------------------------------------------------------ animated arrow */
@@ -96,6 +100,10 @@
 
 /*------------------------------------------------------ page contents */
 
+p, li {
+    font-family: Oxygen, sans-serif;
+}
+
 .index-content {
     position: relative;
     top: 110vh;
@@ -111,6 +119,41 @@
 
 .content-last {
     margin-bottom: 70px;
+}
+
+.intro h1 {
+    text-align: center;
+    font-family: Fjalla One, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.intro p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.problem h1, .solution h1 {
+    font-family: Fjalla One, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.problem li {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: Fjalla One, sans-serif;
+    font-size: 22px;
+}
+
+.solution-first {
+    margin-bottom: 40px;
+}
+
+.solution li {
+    margin-bottom: 10px;
 }
 
 /*------------------------------------------------------ footer */
