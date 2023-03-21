@@ -6,11 +6,22 @@
 /*------------------------------------------------------ navbar */
 
 .logo {
-    height: 40px;
+    height: 50px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#main-nav {
+    padding-right: 30px;
+}
+
+#main-nav .active {
+    color: #6eFAF5;
 }
 
 .navbar {
-    background-color: #306E6C; /*--- colour doesn't work with hero shot, need a darker teal */
+    background-color: none;
 }
 
 .nav-link {
@@ -19,34 +30,33 @@
     color: #F7F7F7;
 }
 
-.active {
-    color: #6EFAF5; /*--- not overriding for some reason */
-}
-
 .navbar-toggler {
     border: none; /*--- need to change internal button colour and on hover */
+}
+
+.solid { /*--- need to make solid when clicked whilst still at top of page */
+    background-color: #102930;
+    transition: background-color 0.5s ease 0s;
+    box-shadow: 0 0 4px black;
 }
 
 /*------------------------------------------------------ hero shot */
 
 .hero-container {
-    height: 100%;
     width: 100%;
-    position: absolute;
-    top: 0;
 }
 
 .hero-img {
     background-image: url("../img/hero_shot.png");
-    height: 100%;
     background-position: center 80%;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .cover-text {
-    color: #fff;
-    top: 100px;
+    color: #F7F7F7;
+    top: 120px;
     left: 40px;
     position: absolute;
 }
@@ -57,7 +67,7 @@
 }
 
 .cover-text p {
-    width: 20vw;
+    width: 25vw;
 }
 
 /*------------------------------------------------------ animated arrow */
@@ -73,7 +83,7 @@
 }
 
 .fa-chevron-down {
-    color: #fff;
+    color: #F7F7F7;
 }
 
 .hero-container .arrow {
@@ -105,8 +115,7 @@ p, li {
 }
 
 .index-content {
-    position: relative;
-    top: 110vh;
+    padding-top: 3em;
 }
 
 .problem, .solution {
@@ -136,7 +145,7 @@ p, li {
 .problem h1, .solution h1 {
     font-family: Fjalla One, sans-serif;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .problem li {
@@ -148,22 +157,35 @@ h3 {
     font-size: 22px;
 }
 
-.solution-first {
-    margin-bottom: 40px;
+.solution p:first-child {
+    margin-bottom: 20px;
 }
 
 .solution li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 /*------------------------------------------------------ footer */
 
 footer {
-    margin: 30px 30px;
+    padding: 20px 30px 10px 30px;
+    background-color: #102930;
+}
+
+#footer-details {
+    color: #F7F7F7;
+}
+
+.social-links a {
+    color: #F7F7F7;
 }
 
 .social-links li {
     list-style-type: none;
     float: right;
     margin-right: 30px;
+}
+
+.social-links li:first-child {
+    margin-right: 0px;
 }

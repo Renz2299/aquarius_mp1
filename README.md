@@ -141,6 +141,8 @@ Colour Assignments:
 * Dark Grey #595959 - Bulk text
 * Off White #F7F7F7 - Site background, text on dark blue
 
+NEED TO UPDATE COLOUR SCHEME
+
 ### Typography
 The Aquarius logo consists of Futura, however this is not a Google Font so is less likely the user will actually be able to view the font, it's also overused and common within industry for a company to use a different font from it's logo. Therefore, the chosen fonts for this site are Google Fonts: Fjalla One and Oxygen.
 
