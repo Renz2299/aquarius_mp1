@@ -30,6 +30,10 @@
     color: #F7F7F7;
 }
 
+.nav-link:hover {
+    color: #6eFAF5;
+}
+
 .navbar-toggler {
     border: none; /*--- need to change internal button colour and on hover */
 }
@@ -37,6 +41,11 @@
 .solid { /*--- need to make solid when clicked whilst still at top of page */
     background-color: #102930;
     transition: background-color 0.5s ease 0s;
+    box-shadow: 0 0 4px black;
+}
+
+.navbar-subpage {
+    background-color: #102930;
     box-shadow: 0 0 4px black;
 }
 
@@ -118,6 +127,10 @@ p, li {
     padding-top: 3em;
 }
 
+.about-content {
+    padding-top: 10em;
+}
+
 .problem, .solution {
     margin-top: 70px;
 }
@@ -130,14 +143,14 @@ p, li {
     margin-bottom: 70px;
 }
 
-.intro h1, .problem h1 {
+.intro h1, .problem h1, .journey h1 {
     text-align: center;
     font-family: Fjalla One, sans-serif;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 
-.intro p, .problem p {
+.intro p, .problem p, .journey p {
     text-align: center;
     margin-bottom: 25px;
 }
@@ -160,6 +173,16 @@ h3 {
 
 .tech {
     margin-bottom: 10px;
+}
+
+.journey-text h1 {
+    font-family: Fjalla One, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.journey-text p {
+    margin-bottom: 25px;
 }
 
 /*------------------------------------------------------ footer */
