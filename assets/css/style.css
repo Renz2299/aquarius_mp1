@@ -131,7 +131,7 @@ p, li {
     padding-top: 10em;
 }
 
-.problem, .solution {
+.problem, .solution, .journey-text {
     margin-top: 70px;
 }
 
@@ -224,5 +224,8 @@ footer {
     }
     .problem-fact {
         margin-top: 10px;
+    }
+    .about-header {
+        display: none;
     }
 }
