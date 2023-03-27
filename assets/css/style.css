@@ -127,7 +127,7 @@ p, li {
     padding-top: 3em;
 }
 
-.about-content {
+.page-content {
     padding-top: 10em;
 }
 
@@ -178,11 +178,43 @@ h3 {
 .journey-text h1 {
     font-family: Fjalla One, sans-serif;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .journey-text p {
     margin-bottom: 25px;
+}
+
+/*------------------------------------------------------ forms */
+
+.form-container {
+    display: block;
+    text-align: center;
+}
+
+.subscribe-form, .collab-form {
+    max-width: 70%;
+    display: inline-block;
+}
+
+.subscribe-form h2, .collab-form h2 {
+    text-align: center;
+    font-family: Fjalla One, sans-serif;
+    text-transform: uppercase;
+}
+
+.subscribe-form label, .subscribe-form input, .collab-form label, .collab-form input {
+    font-family: Oxygen, sans-serif;
+}
+
+.text-input, .submit-button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.form-ext {
+    margin-top: 50px;
 }
 
 /*------------------------------------------------------ footer */
