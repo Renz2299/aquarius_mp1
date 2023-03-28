@@ -187,17 +187,13 @@ h3 {
 
 /*------------------------------------------------------ forms */
 
-.form-container {
-    display: block;
-    text-align: center;
-}
-
 .subscribe-form, .collab-form {
     max-width: 70%;
-    display: inline-block;
+    margin-left: 15%;
+
 }
 
-.subscribe-form h2, .collab-form h2 {
+.subscribe-form h2, .collab-form h2, .submit-button {
     text-align: center;
     font-family: Fjalla One, sans-serif;
     text-transform: uppercase;
@@ -213,8 +209,31 @@ h3 {
     margin: 8px 0;
 }
 
-.form-ext {
+.text-input {
+    border: 1.5px solid #595959;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+}
+
+.text-input:hover {
+    border-color: #6eFAF5;
+}
+
+.submit-button {
+    border-radius: 5px;
+    background-color: #102930;
+    border: none;
+    color: #F7F7F7;
+}
+
+.submit-button:hover {
+    background-color: #6eFAF5;
+    color: #102930;
+}
+
+.collab-form {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /*------------------------------------------------------ footer */
@@ -259,5 +278,12 @@ footer {
     }
     .about-header {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .subscribe-form, .collab-form {
+        width: 840px;
+        margin-left: calc((100vw - 840px)/2);
     }
 }
