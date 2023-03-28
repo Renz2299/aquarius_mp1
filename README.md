@@ -216,4 +216,6 @@ navbar javascript: https://bootstrap-menu.com/detail-fixed-onscroll.html?fbclid=
 animated arrow: https://dzone.com/articles/css-bouncing-arrow
 surfer.jpg: Austin Neill on Unsplash
 swimmers.jpg: Artem Verbo on Unsplash
-Seawater.jpg: Matt Hardy on Unsplash
+seawater.jpg: Matt Hardy on Unsplash
+research.jpg: Brands&People on Unsplash
+research_1.jpg: FORTYTWO on Unsplash
