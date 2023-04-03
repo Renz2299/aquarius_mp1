@@ -266,18 +266,25 @@ footer {
 @media only screen and (max-width: 1199px) {
     .solution ul {
         display: none;
-    }    
+    }
+    .solution img {
+        object-fit: cover;
+        height: 100%;
+    }
 }
 
 @media only screen and (max-width: 992px) {
-    [class*="col-"] {
+    [class*="col-md-"] {
         width: 100%;
     }
     .problem-fact {
         margin-top: 10px;
     }
     .about-header {
-        display: none;
+        width: 33%;
+    }
+    .about-ext {
+        margin-top: 25px;
     }
 }
 
@@ -285,5 +292,14 @@ footer {
     .subscribe-form, .collab-form {
         width: 840px;
         margin-left: calc((100vw - 840px)/2);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #footer-details p {
+        float: right;
+    }
+    .about-header {
+        display: none;
     }
 }
