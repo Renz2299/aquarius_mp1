@@ -5,35 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"/>
-    <!-- this was included in bootstrap link, not sure if it's needed: integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>Aquarius</title> <!--figure out how to add icon-->
-    
-    <!--cutting this out still somehow works-->
-    <!--<script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function(){
-            
-            window.addEventListener('scroll', function() {
-               
-                if (window.scrollY > 200) {
-                    document.getElementById('navbar_top').classList.add('fixed-top');
-                    // add padding top to show content behind navbar
-                    navbar_height = document.querySelector('.navbar').offsetHeight;
-                    document.body.style.paddingTop = navbar_height + 'px';
-                } else {
-                     document.getElementById('navbar_top').classList.remove('fixed-top');
-                     // remove padding top from body
-                    document.body.style.paddingTop = '0';
-                } 
-            });
-        }); 
-        // DOMContentLoaded  end
-    </script>-->
-    
+    <title>Aquarius</title> <!--figure out how to add icon-->    
     <script>
         $(document).ready(function() {
             // Transition effect for navbar 
@@ -71,9 +48,11 @@
         </nav>
         <div class="hero-container">
             <div class="hero-img">
-                <div class="cover-text">
-                    <h2>The World's first real-time tester</h2>
-                    <p><em>Reducing the impact of sewage contamination on regular water users</em></p>
+                <div class="cover-text-bg">
+                    <div class="cover-text">
+                        <h1>The World's first real-time tester</h1>
+                        <p><em>Reducing the impact of sewage contamination on regular water users</em></p>
+                    </div>
                 </div>
                 <div class="arrow bounce">
                     <i class="fa fa-chevron-down"></i>
@@ -104,26 +83,26 @@
                 </div>
                 <div class="row container-fluid">
                     <div class="col-md-6">
-                        <img src="assets/img/problem_fact_1.png" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/problem_fact_1.png">
                     </div>
                     <div class="col-md-6 problem-fact">
-                        <img src="assets/img/swimmers.jpg" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/swimmers.jpg">
                     </div>
                 </div>
                 <div class="row container-fluid content-ext">
                     <div class="col-md-6">
-                        <img src="assets/img/seawater.jpg" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/seawater.jpg">
                     </div>
                     <div class="col-md-6 problem-fact">
-                        <img src="assets/img/problem_fact_2.png" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/problem_fact_2.png">
                     </div>
                 </div>
                 <div class="row container-fluid content-ext">
                     <div class="col-md-6">
-                        <img src="assets/img/problem_fact_3.png" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/problem_fact_3.png">
                     </div>
                     <div class="col-md-6 problem-fact">
-                        <img src="assets/img/surfer.jpg" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/surfer.jpg">
                     </div>
                 </div>
             </div>
@@ -143,12 +122,12 @@
                             about leaving items on the beach.</p>
                     </div>
                     <div class="col-md-6">
-                        <img src="assets/img/product_with_strap.png" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/product_with_strap.png">
                     </div>
                 </div>
                 <div class="row container-fluid content-ext">
                     <div class="col-md-6">
-                        <img src="assets/img/exploded_view.png" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/exploded_view.png">
                     </div>
                     <div class="col-md-6 problem-fact">
                         <h3>Microfluidics Technology</h3>
@@ -178,7 +157,7 @@
                             fluid is purchased in.</p>
                     </div>
                     <div class="col-md-6">
-                        <img src="assets/img/on_dock.png" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/on_dock.png">
                     </div>
                 </div>
             </div>

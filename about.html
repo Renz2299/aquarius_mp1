@@ -5,35 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"/>
-    <!-- this was included in bootstrap link, not sure if it's needed: integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Aquarius</title> <!--figure out how to add icon-->
-    
-    <!--cutting this out still somehow works-->
-    <!--<script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function(){
-            
-            window.addEventListener('scroll', function() {
-               
-                if (window.scrollY > 200) {
-                    document.getElementById('navbar_top').classList.add('fixed-top');
-                    // add padding top to show content behind navbar
-                    navbar_height = document.querySelector('.navbar').offsetHeight;
-                    document.body.style.paddingTop = navbar_height + 'px';
-                } else {
-                     document.getElementById('navbar_top').classList.remove('fixed-top');
-                     // remove padding top from body
-                    document.body.style.paddingTop = '0';
-                } 
-            });
-        }); 
-        // DOMContentLoaded  end
-    </script>-->
-    
     <script>
         $(document).ready(function() {
             // Transition effect for navbar 
@@ -85,13 +62,13 @@
                 </div>
                 <div class="row container-fluid">
                     <div class="col-md-4 about-header">
-                        <img src="assets/img/testing_2.jpg" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/testing_2.jpg">
                     </div>
                     <div class="col-md-4 about-header">
-                        <img src="assets/img/testing_3.jpg" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/testing_3.jpg">
                     </div>
                     <div class="col-md-4 about-header">
-                        <img src="assets/img/testing_1.jpg" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/testing_1.jpg">
                     </div>
                 </div>
             </div>
@@ -113,10 +90,10 @@
                 </div>
                 <div class="row container-fluid">
                     <div class="col-md-6">
-                        <img src="assets/img/research.jpg" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/research.jpg">
                     </div>
                     <div class="col-md-6 about-ext">
-                        <img src="assets/img/research_1.jpg" style="width: 100%; height: 100%;">
+                        <img class="mw-100 mh-100" src="assets/img/research_1.jpg">
                     </div>
                 </div>
                 <div class="row container-fluid journey-text">
@@ -127,16 +104,18 @@
                         carry out their intended role as well as work within a whole system that can provide feedback on the water
                         quality to the user.</p>
                 </div>
-                <div class="row container-fluid">
-                    <div class="col-md-4">
-                        <img src="assets/img/testing_4.jpg" style="width: 100%;">
+                <div class="row container-fluid"> <!-- need to make heights line up -->
+                    <div class="col-md-7">
+                        <div class="row">
+                            <img class="" src="assets/img/testing_4.jpg" style="height: 50%;">
+                        </div>
+                        <div class="row content-ext">
+                            <img class="" src="assets/img/testing_5.jpeg">
+                        </div>
                     </div>
-                    <div class="col-md-4 about-ext">
-                        <img src="assets/img/testing_5.jpeg" style="width: 100%;">
-                    </div>
-                    <div class="col-md-4 about-ext">
-                        <video width="100%" height="100%" controls autoplay> <!--find out why this doesn't work-->
-                            <source src="testing_video.mp4" type="video/mp4">
+                    <div class="col-md-5 about-ext">
+                        <video width="100%" height="100%" controls muted>
+                            <source src="assets/img/testing_video.mp4" type="video/mp4">
                             Your browser does not support this video.
                         </video>
                     </div>
@@ -154,10 +133,10 @@
                 </div>
                 <div class="row container-fluid content-last">
                     <div class="col-md-6">
-                        <img src="assets/img/exploded_view.png" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/exploded_view.png">
                     </div>
                     <div class="col-md-6 about-ext">
-                        <img src="assets/img/components.png" style="width: 100%;">
+                        <img class="mw-100" src="assets/img/components.png">
                     </div>
                 </div>
             </div>
