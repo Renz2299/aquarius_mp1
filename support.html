@@ -41,33 +41,57 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
-                        <li class="nav-item"><a class="nav-link" href="support.html">SUPPORT</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="signup.html">SIGN UP</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="support.html">SUPPORT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="signup.html">SIGN UP</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </section>
     <div class="page-content">
+        <section>
+            <div class="container support">
+                <div class="row">
+                    <h1>Support the Cause</h1>
+                    <p>tagline</p>
+                </div>
+                <div class="row support-items">
+                    <div class="col-md-4">
+                        <img class="img-width-100 content-ext-10" src="/assets/img/beach_clean.jpg">
+                        <h3>Beach Cleans</h3>
+                        <p>Link to SAS</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-width-100 content-ext-10" src="/assets/img/protest.jpg">
+                        <h3>Rallies / Marches</h3>
+                        <p>Link to something</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-width-100 content-ext-10" src="/assets/img/petition.jpg">
+                        <h3>Petitions</h3>
+                        <p>Link to something</p>
+                    </div>
+                </div>
+        </section>
         <section class="form-section">
             <div class="form-container">
-                <form class="subscribe-form content-ext-60" action="/thank_you.html">
-                    <h2>Want to stay up to date?</h2>
-                    <p>Add your email below to sign up to our monthly newsletter</p>
-                    <label for="name">Name</label>
-                    <input id="name" class="text-input" type="text" name="name" required>
+                <form class="collab-form content-ext-60" action="/thank_you.html">
+                    <h2>Want to work with us?</h2>
+                    <label for="fname">First Name</label>
+                    <input id="fname" class="text-input" type="text" name="first_name" required>
+                    <label for="lname">Last Name</label>
+                    <input id="lname" class="text-input" type="text" name="last_name" required>
                     <label for="email">Email Address</label>
                     <input id="email" class="text-input" type="email" name="email" required>
-                    <input type="submit" class="submit-button" value="Subscribe">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="text-input" name="message" rows="4" cols="50" required></textarea>
+                    <input type="submit" class="submit-button" value="Submit">
                 </form>
             </div>
         </section>
-        <section>
-            <img class="img-width-100" src="assets/img/signup.jpg">
-        </section>
     </div>
     <footer>
-        <div id="footer-details" class="row container-fluid">
+        <div id="footer-details" class="row">
             <div class="col-sm-6">
                 <p>2023 © Karenza Design</p>
             </div>

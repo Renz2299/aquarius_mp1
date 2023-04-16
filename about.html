@@ -10,7 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>Aquarius</title> <!--figure out how to add icon-->
+    <title>Aquarius</title>
+    <link rel="icon" type="image" href="assets/img/favicon.png">
     <script>
         $(document).ready(function() {
             // Transition effect for navbar 
@@ -34,13 +35,13 @@
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
                     <span class="navbar-toggler-icon"></span>
-                    <!--thick border doesn't disappear after menu toggled off again until click somewhere else
-                        needs background colour whilst in transparent section at top, currently unreadble-->
+                    <!--need to remove border on click, and make blue when toggled, need to add background when toggled-->
                 </button>
                 <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link  active" href="about.html">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="about.html">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="support.html">SUPPORT</a></li>
                         <li class="nav-item"><a class="nav-link" href="signup.html">SIGN UP</a></li>
                     </ul>
                 </div>
@@ -49,33 +50,33 @@
     </section>
     <div class="page-content">
         <section>
-            <div class="container journey">
-                <div class="row container-fluid">
+            <div class="container">
+                <div class="row our-journey">
                     <h1>Our Journey</h1>
                     <p>Aquarius™ began in 2021 as a university project that started because we were passionate about swimming,
                         bodyboarding and surfing and were tired of worrying about getting sick from enjoying our passion. We wondered
-                        if there was an easier and faster way to test bathing waters and provide reliable data to the public which
+                        if there was an <i>easier and faster way to test bathing waters</i> and provide reliable data to the public which
                         the government and environment agency were not doing.</p>
-                    <p>Now, a year and a half later, Aquarius™ has developed into a portable and reliable water quality tester that
-                        can tell users the quality of their local bathing waters within minutes and make the data accessible to the
-                        wider public.</p>
+                    <p>Now, a year and a half later, Aquarius™ has developed into <i>a portable and reliable water quality tester</i> that
+                        can tell users the quality of their local bathing waters within minutes and <i>make the data accessible to the
+                        wider public.</i></p>
                 </div>
-                <div class="row container-fluid">
+                <div class="row">
                     <div class="col-md-4 about-header">
-                        <img class="mw-100" src="assets/img/testing_2.jpg">
+                        <img class="img-width-100" src="assets/img/testing_2.jpg">
                     </div>
                     <div class="col-md-4 about-header">
-                        <img class="mw-100" src="assets/img/testing_3.jpg">
+                        <img class="img-width-100" src="assets/img/testing_3.jpg">
                     </div>
                     <div class="col-md-4 about-header">
-                        <img class="mw-100" src="assets/img/testing_1.jpg">
+                        <img class="img-width-100" src="assets/img/testing_1.jpg">
                     </div>
                 </div>
             </div>
         </section>
         <section>
             <div class="container journey-text">
-                <div class="row container-fluid content-ext">
+                <div class="row content-ext-25">
                     <h1>Driven by Research</h1>
                     <p>Aquarius™ is trying to solve a real-world and very techincal problem that can be influenced by many different
                         environmental factors. That meant a lot of research went into the initial phase of our journey to find the
@@ -88,15 +89,15 @@
                         users to help guide us towards the best solution, which is one that solves the problem effectively whilst
                         providing beneficial feedback and feelings to the user.</p>
                 </div>
-                <div class="row container-fluid">
+                <div class="row">
                     <div class="col-md-6">
-                        <img class="mw-100" src="assets/img/research.jpg">
+                        <img class="img-width-100" src="assets/img/research.jpg">
                     </div>
                     <div class="col-md-6 about-ext">
-                        <img class="mw-100 mh-100" src="assets/img/research_1.jpg">
+                        <img class="img-width-100 img-height-100" src="assets/img/research_1.jpg">
                     </div>
                 </div>
-                <div class="row container-fluid journey-text">
+                <div class="row journey-text">
                     <h1>Developed through Testing</h1>
                     <p>Aquarius™ was developed through extensive testing. This included user testing of working prototypes to ensure
                         the usability and interaction with the product was suitable for it's environment and the best it could be.
@@ -104,23 +105,25 @@
                         carry out their intended role as well as work within a whole system that can provide feedback on the water
                         quality to the user.</p>
                 </div>
-                <div class="row container-fluid"> <!-- need to make heights line up -->
-                    <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-4">
                         <div class="row">
-                            <img class="" src="assets/img/testing_4.jpg" style="height: 50%;">
-                        </div>
-                        <div class="row content-ext">
-                            <img class="" src="assets/img/testing_5.jpeg">
+                            <img class="" src="assets/img/testing_4.png">
                         </div>
                     </div>
-                    <div class="col-md-5 about-ext">
-                        <video width="100%" height="100%" controls muted>
+                    <div class="col-md-4 about-ext">
+                        <div class="row">
+                            <img class="" src="assets/img/testing_5.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-4 about-ext">
+                        <video width="100%" controls muted>
                             <source src="assets/img/testing_video.mp4" type="video/mp4">
                             Your browser does not support this video.
                         </video>
                     </div>
                 </div>
-                <div class="row container-fluid journey-text">
+                <div class="row journey-text">
                     <h1>Built to Last</h1>
                     <p>Aquarius™ is built on the idea of protecting our bathing waters and their environments so it only makes sense
                         for the Aquarius™ device to be designed and manufactured with sustainability at it's core. The device casing
@@ -131,19 +134,19 @@
                         much material as possible, useful components are collected for servicing devices and the rest of the components
                         are recycled into useful materials that can go into other products.</p>
                 </div>
-                <div class="row container-fluid content-last">
+                <div class="row content-last">
                     <div class="col-md-6">
-                        <img class="mw-100" src="assets/img/exploded_view.png">
+                        <img class="img-width-100" src="assets/img/exploded_view.png">
                     </div>
                     <div class="col-md-6 about-ext">
-                        <img class="mw-100" src="assets/img/components.png">
+                        <img class="img-width-100" src="assets/img/components.png">
                     </div>
                 </div>
             </div>
         </section>
     </div>
     <footer>
-        <div id="footer-details" class="row container-fluid">
+        <div id="footer-details" class="row">
             <div class="col-sm-6">
                 <p>2023 © Karenza Design</p>
             </div>
