@@ -14,9 +14,7 @@
     <link rel="icon" type="image" href="assets/img/favicon.png">  
     <script>
         $(document).ready(function() {
-            // Transition effect for navbar 
             $(window).scroll(function() {
-                // checks if window is scrolled more than 500px, adds/removes solid class
                 if($(this).scrollTop() > 40) { 
                     $('.navbar').addClass('solid');
                 } else {
@@ -28,14 +26,14 @@
 </head>
 <body>
     <section>
-        <nav id="navbar_top" class="navbar navbar-expand-sm fixed-top">
+        <!-- following code sourced from: https://bootstrap-menu.com/detail-fixed-onscroll.html?fbclid=IwAR3Hoo45FodP7x-jv1Rt9Cl6LSx2J2AKoAXP1qmmECSU2XaOZ35r7C97e4A -->
+        <nav id="navbar_top" class="navbar navbar-expand-md fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <img class="logo" src="assets/img/logo_white.png">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
                     <span><i class="fa fa-bars"></i></span>
-                    <!--need to remove border on click, and make blue when toggled, need to add background when toggled-->
                 </button>
                 <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="navbar-nav ms-auto">
@@ -47,12 +45,20 @@
                 </div>
             </div>
         </nav>
+        <!-- end of externally sourced code -->
         <div class="hero-container">
             <div class="hero-img">
+                <img class="sr-only" alt="Aquarius device floating underwater" src="assets/img/hero_shot.png">
                 <div class="cover-text-bg">
                     <div class="cover-text">
                         <h1>The World's first real-time tester</h1>
                         <p><em>Reducing the impact of sewage contamination on regular water users</em></p>
+                    </div>
+                </div>
+                <div class="cover-text-bg">
+                    <div class="cover-text-2">
+                        <h2>Coming Soon</h2>
+                        <p><em>Pre-order available: Autumn 2023</em></p>
                     </div>
                 </div>
                 <div class="arrow bounce">
@@ -69,7 +75,7 @@
                     <p>The <b>Aquarius™ water quality tester</b> makes checking the health of your local bathing waters instant and effortless! The intuitive user interaction, easy to use testing cartridges and wearable strap make this the perfect addition to your watersports adventures!</p>
                 </div>
                 <div class="row">
-                    <img src="assets/img/multi_product.png">
+                    <img src="assets/img/multi_product.png" alt="Two Aquarius devices side by side">
                 </div>
             </div>
         </section>
@@ -80,19 +86,19 @@
                     <p>It is a human right to be able to swim, surf, paddle and bathe in safety without getting sick. The health of our
                         oceans and rivers has never been worse; polluted waters are a major threat to our health, the wildlife around
                         us, and the long-term future of our ecosystems. <b>Water companies are profiteering off pollution and the
-                            government is complicit.</b></p>
+                        government is complicit.</b></p>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
                         <img class="img-width-100" src="assets/img/problem_fact_1.png">
                     </div>
                     <div class="col-md-6 problem-fact">
-                        <img class="img-width-100" src="assets/img/swimmers.jpg">
+                        <img class="img-width-100" src="assets/img/swimmers.jpg" alt="People walking into the sea">
                     </div>
                 </div>
                 <div class="row content-ext-25">
                     <div class="col-md-6">
-                        <img class="img-width-100" src="assets/img/seawater.jpg">
+                        <img class="img-width-100" src="assets/img/seawater.jpg" alt="Seawater">
                     </div>
                     <div class="col-md-6 problem-fact">
                         <img class="img-width-100" src="assets/img/problem_fact_2.png">
@@ -103,7 +109,7 @@
                         <img class="img-width-100" src="assets/img/problem_fact_3.png">
                     </div>
                     <div class="col-md-6 problem-fact">
-                        <img class="img-width-100" src="assets/img/surfer.jpg">
+                        <img class="img-width-100" src="assets/img/surfer.jpg" alt="Surfer riding a wave">
                     </div>
                 </div>
             </div>
@@ -123,12 +129,12 @@
                             about leaving items on the beach.</p>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-width-100" src="assets/img/product_with_strap.png">
+                        <img class="img-width-100" src="assets/img/product_with_strap.png" alt="Aquarius with detachable strap">
                     </div>
                 </div>
                 <div class="row content-ext-25">
                     <div class="col-md-6">
-                        <img class="img-width-100" src="assets/img/exploded_view.png">
+                        <img class="img-width-100" src="assets/img/exploded_view.png" alt="Internal components of Aquarius">
                     </div>
                     <div class="col-md-6 problem-fact">
                         <h3>Microfluidics Technology</h3>
@@ -158,7 +164,7 @@
                             fluid is purchased in.</p>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-width-100" src="assets/img/on_dock.png">
+                        <img class="img-width-100" src="assets/img/on_dock.png" alt="Aquarius on it's charging/ cleaning dock">
                     </div>
                 </div>
             </div>

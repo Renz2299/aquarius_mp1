@@ -35,7 +35,7 @@
 }
 
 .navbar-toggler {
-    border: none; /*--- need to change internal button colour and on hover */
+    border: none;
     color: #F7F7F7;
 }
 
@@ -43,7 +43,7 @@
     color: #A1FAF5;
 }
 
-.solid { /*--- need to make solid when clicked whilst still at top of page */
+.solid {
     background-color: #102930;
     transition: background-color 0.5s ease 0s;
     box-shadow: 0 0 4px black;
@@ -75,6 +75,13 @@
     position: absolute;
 }
 
+.cover-text-2 {
+    color: #F7F7F7;
+    bottom: 80px;
+    right: 40px;
+    position: absolute;
+}
+
 .cover-text h1 {
     font-family: Fjalla One, sans-serif;
     text-transform: uppercase;
@@ -85,8 +92,23 @@
     font-size: 18px;
 }
 
+.cover-text-2 {
+    text-align: right;
+}
+
+.cover-text-2 h2 {
+    font-family: Fjalla One, sans-serif;
+    text-transform: uppercase;
+}
+
+.cover-text-2 p {
+    font-family: Oxygen, sans-serif;
+    font-size: 18px;
+}
+
 /*------------------------------------------------------ animated arrow */
 
+/* following code sourced from: https://dzone.com/articles/css-bouncing-arrow */
 .arrow {
     position: relative;
     bottom: -2rem;
@@ -94,16 +116,6 @@
     margin-left: -20px;
     width: 40px;
     height: 40px;
-}
-
-.fa-chevron-down {
-    color: #F7F7F7;
-}
-
-.hero-container .arrow {
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
 }
 
 .bounce {
@@ -120,6 +132,17 @@
     60% {
         transform: translateY(-15px);
     }
+}
+/* end of externally sourced code */
+
+.fa-chevron-down {
+    color: #F7F7F7;
+}
+
+.hero-container .arrow {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
 }
 
 /*------------------------------------------------------ page contents */
@@ -210,6 +233,12 @@ h3 {
     text-align: left;
 }
 
+.support-items a {
+    color: #A1FAF5;
+    text-decoration: none;
+    font-weight: 700;
+}
+
 /*------------------------------------------------------ forms */
 
 .subscribe-form, .collab-form {
@@ -217,7 +246,7 @@ h3 {
     margin-left: 15%;
 }
 
-.subscribe-form h2, .collab-form h2, .submit-button {
+.subscribe-form h1, .collab-form h2, .submit-button {
     text-align: center;
     font-family: Fjalla One, sans-serif;
     text-transform: uppercase;

@@ -13,10 +13,8 @@
     <title>Aquarius</title>
     <link rel="icon" type="image" href="assets/img/favicon.png">
     <script>
-        $(document).ready(function() {
-            // Transition effect for navbar 
+        $(document).ready(function() { 
             $(window).scroll(function() {
-                // checks if window is scrolled more than 500px, adds/removes solid class
                 if($(this).scrollTop() > 40) { 
                     $('.navbar').addClass('solid');
                 } else {
@@ -28,6 +26,7 @@
 </head>
 <body>
     <section>
+        <!-- following code sourced from: https://bootstrap-menu.com/detail-fixed-onscroll.html?fbclid=IwAR3Hoo45FodP7x-jv1Rt9Cl6LSx2J2AKoAXP1qmmECSU2XaOZ35r7C97e4A -->
         <nav id="navbar_top" class="navbar navbar-expand-sm fixed-top navbar-subpage">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
@@ -35,7 +34,6 @@
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
                     <span class="navbar-toggler-icon"></span>
-                    <!--need to remove border on click, and make blue when toggled, need to add background when toggled-->
                 </button>
                 <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="navbar-nav ms-auto">
@@ -47,31 +45,39 @@
                 </div>
             </div>
         </nav>
+        <!-- end of externally sourced code -->
     </section>
     <div class="page-content">
         <section>
             <div class="container support">
                 <div class="row">
                     <h1>Support the Cause</h1>
-                    <p>tagline</p>
+                    <p><b>Aquarius™</b> can help us identify poor water quality and spot when water companies putting profits above
+                        the environment, but <b>we need you</b> to call out when this happens to force the government to make
+                        changes. There is power when we act in numbers, keep reading to for ways you can take action for our ocean.</p>
                 </div>
                 <div class="row support-items">
                     <div class="col-md-4">
-                        <img class="img-width-100 content-ext-10" src="/assets/img/beach_clean.jpg">
+                        <img class="img-width-100 content-ext-10" src="/assets/img/beach_clean.jpg" alt="Man at a beach clean">
                         <h3>Beach Cleans</h3>
-                        <p>Link to SAS</p>
+                        <p>Find a <a href="https://www.sas.org.uk/plastic-pollution/million-mile-clean/find-a-clean-near-you/">beach clean</a>
+                            near you and join thousands of people from across the UK that are stepping up for the places they love.</p>
                     </div>
                     <div class="col-md-4">
-                        <img class="img-width-100 content-ext-10" src="/assets/img/protest.jpg">
+                        <img class="img-width-100 content-ext-10" src="/assets/img/protest.jpg" alt="Woman holding megaphone">
                         <h3>Rallies / Marches</h3>
-                        <p>Link to something</p>
+                        <p>Paddle Out Protests are a great way to campaign for our ocean and meet like minded people. Find your
+                            nearest one <a href="https://www.sas.org.uk/water-quality/paddle-out-protest-2023/">here.</a></p>
                     </div>
                     <div class="col-md-4">
-                        <img class="img-width-100 content-ext-10" src="/assets/img/petition.jpg">
+                        <img class="img-width-100 content-ext-10" src="/assets/img/petition.jpg" alt="Protesters rallying in street">
                         <h3>Petitions</h3>
-                        <p>Link to something</p>
+                        <p>Sign the Surfers Against Sewage: Dirty Money <a href="https://www.sas.org.uk/water-quality/dirty-money/">petition</a>
+                            to demand an end for water companies profiteering off polluting our waters.
+                        </p>
                     </div>
                 </div>
+            </div>
         </section>
         <section class="form-section">
             <div class="form-container">

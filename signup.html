@@ -14,9 +14,7 @@
     <link rel="icon" type="image" href="assets/img/favicon.png">
     <script>
         $(document).ready(function() {
-            // Transition effect for navbar 
             $(window).scroll(function() {
-                // checks if window is scrolled more than 500px, adds/removes solid class
                 if($(this).scrollTop() > 40) { 
                     $('.navbar').addClass('solid');
                 } else {
@@ -28,6 +26,7 @@
 </head>
 <body>
     <section>
+        <!-- following code sourced from: https://bootstrap-menu.com/detail-fixed-onscroll.html?fbclid=IwAR3Hoo45FodP7x-jv1Rt9Cl6LSx2J2AKoAXP1qmmECSU2XaOZ35r7C97e4A -->
         <nav id="navbar_top" class="navbar navbar-expand-sm fixed-top navbar-subpage">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
@@ -35,7 +34,6 @@
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
                     <span class="navbar-toggler-icon"></span>
-                    <!--need to remove border on click, and make blue when toggled, need to add background when toggled-->
                 </button>
                 <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="navbar-nav ms-auto">
@@ -47,13 +45,15 @@
                 </div>
             </div>
         </nav>
+        <!-- end of externally sourced code -->
     </section>
     <div class="page-content">
         <section class="form-section">
             <div class="form-container">
                 <form class="subscribe-form content-ext-60" action="/thank_you.html">
-                    <h2>Want to stay up to date?</h2>
-                    <p>Add your email below to sign up to our monthly newsletter</p>
+                    <h1>Want to stay up to date?</h1>
+                    <p>Add your email below to sign up to our monthly newsletter. We'll send you updates on Aquarius, including when
+                        it will be available for pre-order, as well as upcoming events and water quality news.</p>
                     <label for="name">Name</label>
                     <input id="name" class="text-input" type="text" name="name" required>
                     <label for="email">Email Address</label>
@@ -63,7 +63,7 @@
             </div>
         </section>
         <section>
-            <img class="img-width-100" src="assets/img/signup.jpg">
+            <img class="img-width-100" src="assets/img/signup.jpg" alt="A beach">
         </section>
     </div>
     <footer>
