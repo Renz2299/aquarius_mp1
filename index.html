@@ -12,17 +12,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Aquarius</title>
     <link rel="icon" type="image" href="assets/img/favicon.png">  
-    <script>
-        $(document).ready(function() {
-            $(window).scroll(function() {
-                if($(this).scrollTop() > 40) { 
-                    $('.navbar').addClass('solid');
-                } else {
-                    $('.navbar').removeClass('solid');
-                }
-            });
-        });
-    </script>
 </head>
 <body>
     <section>
@@ -200,4 +189,15 @@
         </div>
     </footer>
 </body>
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if($(this).scrollTop() > 40) { 
+                $('.navbar').addClass('solid');
+            } else {
+                $('.navbar').removeClass('solid');
+            }
+        });
+    });
+</script>
 </html>
