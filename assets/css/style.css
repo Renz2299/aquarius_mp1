@@ -243,6 +243,10 @@ h2 {
     z-index: -3;
 }
 
+.video {
+    width: 100%;
+}
+
 /*------------------------------------------------------ forms */
 
 .subscribe-form, .collab-form {
