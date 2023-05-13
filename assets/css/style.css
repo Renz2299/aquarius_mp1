@@ -204,7 +204,7 @@ p, li {
     margin-bottom: 20px;
 }
 
-h3 {
+h2 {
     font-family: Fjalla One, sans-serif;
     font-size: 22px;
     text-transform: uppercase;
@@ -353,7 +353,7 @@ footer {
     .cover-text p {
         width: 50vw;
     }
-    .support-items h3 {
+    .support-items h2 {
         font-family: Fjalla One, sans-serif;
         text-transform: uppercase;
         font-size: 32px;
