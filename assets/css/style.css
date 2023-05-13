@@ -238,6 +238,11 @@ h3 {
     font-weight: 700;
 }
 
+.signup-img {
+    position: relative;
+    z-index: -3;
+}
+
 /*------------------------------------------------------ forms */
 
 .subscribe-form, .collab-form {
@@ -393,9 +398,10 @@ footer {
     }
 }
 
-@media only screen and (min-height: 875px) {
+@media screen and (min-height: 875px) and (max-height: 1296px) {
     .signup-footer {
         position: absolute;
         bottom: 0;
+        width: 100vw;
     }
 }
