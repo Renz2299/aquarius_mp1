@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
-/*------------------------------------------------------ colours */
-
 /*------------------------------------------------------ navbar */
 
 .logo {
@@ -21,11 +19,11 @@
 }
 
 .navbar {
-    background-color: none;
+    background-color: transparent;
 }
 
 .nav-link {
-    font-family: Fjalla One, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
     color: #F7F7F7;
     padding-left: 25px;
@@ -81,7 +79,7 @@
 }
 
 .cover-text h1, .cover-text-2 h2 {
-    font-family: Fjalla One, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
 }
 
@@ -150,10 +148,6 @@ p, li {
     font-family: Oxygen, sans-serif;
 }
 
-.index-content {
-    padding-top: 3em;
-}
-
 .page-content {
     padding-top: 10em;
 }
@@ -188,7 +182,7 @@ p, li {
 
 .intro h1, .problem h1, .our-journey h1, .support h1, .thank-you h1 {
     text-align: center;
-    font-family: Fjalla One, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
@@ -199,15 +193,21 @@ p, li {
 }
 
 .problem h1, .solution h1 {
-    font-family: Fjalla One, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
 h2 {
-    font-family: Fjalla One, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 22px;
     text-transform: uppercase;
+}
+
+/*------------------------------------------------------ home page specific */
+
+.index-content {
+    padding-top: 3em;
 }
 
 .solution ul {
@@ -218,8 +218,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+/*------------------------------------------------------ about page specific */
+
 .journey-text h1 {
-    font-family: Fjalla One, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -227,6 +229,12 @@ h2 {
 .journey-text p {
     margin-bottom: 25px;
 }
+
+.video {
+    width: 100%;
+}
+
+/*------------------------------------------------------ support page specific */
 
 .support-items p {
     text-align: left;
@@ -238,13 +246,10 @@ h2 {
     font-weight: 700;
 }
 
+/*------------------------------------------------------ subscribe page specific */
+
 .signup-img {
     position: relative;
-    z-index: -3;
-}
-
-.video {
-    width: 100%;
 }
 
 /*------------------------------------------------------ forms */
@@ -252,11 +257,13 @@ h2 {
 .subscribe-form, .collab-form {
     max-width: 70%;
     margin-left: 15%;
+    position: relative;
+    z-index: 1;
 }
 
 .subscribe-form h1, .collab-form h2, .submit-button {
     text-align: center;
-    font-family: Fjalla One, sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
 }
 
@@ -358,7 +365,7 @@ footer {
         width: 50vw;
     }
     .support-items h2 {
-        font-family: Fjalla One, sans-serif;
+        font-family: 'Fjalla One', sans-serif;
         text-transform: uppercase;
         font-size: 32px;
     }
@@ -406,6 +413,5 @@ footer {
     .signup-footer {
         position: absolute;
         bottom: 0;
-        width: 100vw;
     }
 }
