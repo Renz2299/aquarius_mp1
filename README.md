@@ -28,8 +28,8 @@ A website introducing the Aquarius product to the world, consisting of four page
     * [Code Validation](#code-validation)
     * [User Story Testing](#user-story-testing)
     * [Feature Testing](#feature-testing)
-8. [Future Improvements](#future-improvements)
-9. [Credits & Acknowledgments](#credits--acknowledgements)
+    * [Future Improvements](#future-improvements)
+8. [Credits & Acknowledgments](#credits--acknowledgements)
 
 ***
 
@@ -197,7 +197,7 @@ Oxygen will be used for paragraph text, links and the footer, the following scre
 * JavaScript (a very small amount within a single site feature)
 
 ### Version Control
-During site development GitHub was used to manage versions of each file, commits were made often and consisted of small bite-sized edits to individual features so it would be easier to roll back the site to a previous version if required. Since this was my first project completed using HTML and CSS, there was a steep learning curve and many coding sessions that didn't feel as productive as hoped and others that were much easier than anticipated. In total there were 50 commits for this project, details of the commits can be found here: https://github.com/Renz2299/aquarius_mp1/commits/main
+During site development GitHub was used to manage versions of each file, commits were made often and consisted of small bite-sized edits to individual features so it would be easier to roll back the site to a previous version if required. Since this was my first project completed using HTML and CSS, there was a steep learning curve and many coding sessions that didn't feel as productive as hoped and others that were much easier than anticipated. In total there were 51 commits for this project, details of the commits can be found here: https://github.com/Renz2299/aquarius_mp1/commits/main
 
 ***
 
